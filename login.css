@@ -1,0 +1,169 @@
+.header{
+    width: 100%;
+    height: 110px;
+    background: transparent;
+    
+}
+html,body{
+    margin: 0%;
+    background-image: linear-gradient(to right, black, darkred);
+    font-family: 'Poppins', sans-serif;
+
+}
+.logo{
+    float: left;
+    padding-top: 10px;
+    width: 50%;
+    
+}
+.logo-text{
+    font-size: 52px;
+    font-weight: 900;
+    color: #e50914;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-left: 190px;
+}
+.right-section{
+    width: 40%;
+    height: 700px;
+    float: left;
+}
+.poster-grid{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr); /* 3 posters per column */
+     gap: 10px;
+     padding: 40px;
+
+}
+.image1{
+    width: 150px;
+  border-radius: 25px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.image1:hover{
+    transform: scale(1.08);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+.left-section{
+    
+    height: 700px;
+    float: left;
+}
+.login-box{
+    backdrop-filter: blur(6px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+    width: 550px;
+    height: 650px;
+    margin-left: 200px;
+    border-radius: 20px;
+    text-align: justify;
+    padding-top: 0px;
+}
+.big-text{
+    color: whitesmoke;
+    margin-left: 80px;
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.input-box{
+    width: 60%;
+    height: 35px;
+    margin-left: 105px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    margin-top: 25px;
+    padding: 8px;
+
+
+    
+    
+}
+input::placeholder{
+    color: #111;
+}
+input:focus {
+  box-shadow: 0 0 0 2px rgba(229, 9, 20, 0.8);
+}
+.sign-btn{
+    width: 45%;
+    height: 43px;
+    margin-left: 155px;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    background: #f1f1f1;
+    color: #000;
+    transition: all 0.3s ease;
+
+    
+}
+.btn-text{
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 45;
+    color: black;
+    
+
+}
+.sign-btn:hover{
+    background: #e50914;
+    color: #fff;
+    transform: scale(1.03);
+    box-shadow: 0 0 12px rgba(229,9,20,0.6);
+    
+}
+.or{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 265px;
+    font-size: small;
+}
+.signup-btn{
+    width: 45%;
+    height: 43px;
+    margin-left: 155px;
+    background: #f1f1f1;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+    transition:  0.3s;
+    
+}
+.signup-btn:hover{
+   background: #b20710;
+   color: #fff;
+}
+.forget{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 215px;
+    font-size: small;
+}
+.small-text{
+    color: aliceblue;
+    font-size: x-small;
+    margin-left: 80px;
+}
+.checkbox{
+    margin-left: 80px;
+    
+    
+}
+.checktext{
+    color: white;
+    
+}
+
+

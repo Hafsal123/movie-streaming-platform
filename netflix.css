@@ -1,0 +1,173 @@
+html,body{
+    margin: 0%;
+    background: black;
+    height: 2000px;
+}
+.header{
+    background: black;
+    width: 100%;
+    height: 50px;
+}
+.logo{
+    width: 20%;
+    padding-top: 10px;
+    float: left;
+    cursor: pointer;
+
+}
+.logo-text{
+    color: #e50914;
+    font-family:'Poppins', sans-serif ;
+    margin-left: 40px;
+    font-size: 25px;
+}
+.options{
+    
+    float: left;
+    padding-top: 18px;
+    
+}
+.select{
+    cursor: pointer;
+    width: 100px;
+    background: black;
+    color: aliceblue;
+    border: none;
+}
+.search{
+    padding-top:18px ;
+    float: left;
+    
+    
+}
+.search-box{
+    float: left;
+    margin-left: 10px;
+    background: transparent;
+    border-color: #e50914;
+    height: 20px;
+    
+    
+}
+input::placeholder{
+    color: whitesmoke;
+}
+.button-block{
+    float: left;
+    margin-left: 1050px;
+    margin-block: -25PX; 
+}
+.button{
+    color: white;
+    background: #e50914;
+    width: 80px;
+    height: 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.main-section{
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(to right, rgba(0,0,0,0.5),rgba(0,0,0,0.4),rgba(0,0,0,0.9))
+    ,url(2018-Malayalam-7x2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-color: black;
+    float: left;
+    
+}
+.watch-btn{
+    width: 110px;
+    height: 45px;
+    margin-left: 90px;
+    margin-top: 310px;
+    color: #000;
+    font-size: 45;
+    font-weight: bold;
+    border-radius: 6px;
+    background: #1ed760;
+    cursor: pointer;
+
+}
+.watch-btn:hover{
+    background:  #17b84e;
+}
+input:focus {
+  outline: none;
+  border: 2px solid #1ed760;
+}
+.movie-2018{
+    color: white;
+    margin-left: 90px;
+    
+}
+.movie-listing{
+    width: 100%;
+    height: 1200px;
+    background: black;
+    float: left;
+    
+}
+.movies::-webkit-scrollbar {
+  display: none;
+}
+.heading{
+    color: #e50914;
+    margin-left: 15px; 
+    padding-top: 50px;
+     
+}
+.movies{
+     display: grid;
+     grid-template-columns: repeat(7, 1fr); /*  posters per column */
+     gap: 10px;
+     padding: 15px;
+
+}
+.image1{
+    width: 190px;
+    height: 100px;
+    border-radius: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+.image1:hover{
+    transform: scale(1.08);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+.TOP-10-row{
+    display: flex;
+    gap: 40px;
+    padding-left: 155px;
+    overflow-x: auto;
+    align-items: flex-end;
+}
+.TOP-10-card{
+    position: relative;
+    width: 180px;
+    height: 260px;
+}
+.TOP-10-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+.rank{
+    position: absolute;
+    left: -70px;
+    bottom: -10px;
+    font-size: 180px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.15);
+    z-index: 1;
+    font-family: arial,sans-serif;
+}
+.TOP-10-row::-webkit-scrollbar {
+  display: none;
+}
